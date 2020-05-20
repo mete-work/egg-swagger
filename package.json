@@ -1,0 +1,35 @@
+{
+  "name": "@godotdotdot/egg-swagger",
+  "version": "1.0.0",
+  "description": "Egg swagger plugin",
+  "eggPlugin": {
+    "name": "swagger"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "swagger"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "app.js"
+  ],
+  "author": "godotdotdot",
+  "license": "MIT",
+  "dependencies": {
+    "joi-to-json-schema": "^5.1.0",
+    "koa2-swagger-ui": "^2.15.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoDotDotDot/egg-swagger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GoDotDotDot/egg-swagger/issues"
+  },
+  "homepage": "https://github.com/GoDotDotDot/egg-swagger#readme",
+  "author": "godotdotdot",
+}
