@@ -1,4 +1,4 @@
-const joi = require('boss-joi');
+const joi = require('@mete-work/joi');
 
 module.exports = {
   validateReq(key, options) {

@@ -1,5 +1,5 @@
 {
-  "name": "@godotdotdot/egg-swagger",
+  "name": "@mete-work/egg-swagger",
   "version": "1.0.0",
   "description": "Egg swagger plugin",
   "eggPlugin": {
@@ -17,19 +17,23 @@
   "files": [
     "app.js"
   ],
+  "scripts": {
+    "postpublish": "node scripts/published.js"
+  },
   "author": "godotdotdot",
   "license": "MIT",
   "dependencies": {
     "joi-to-json-schema": "^5.1.0",
-    "koa2-swagger-ui": "^2.15.4"
+    "koa2-swagger-ui": "^2.15.4",
+    "@mete-work/joi": "^1.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GoDotDotDot/egg-swagger.git"
+    "url": "git+https://github.com/mete-work/egg-swagger.git"
   },
   "bugs": {
-    "url": "https://github.com/GoDotDotDot/egg-swagger/issues"
+    "url": "https://github.com/mete-work/egg-swagger/issues"
   },
-  "homepage": "https://github.com/GoDotDotDot/egg-swagger#readme",
-  "author": "godotdotdot",
+  "homepage": "https://github.com/mete-work/egg-swagger#readme",
+  "author": "godotdotdot"
 }
