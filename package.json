@@ -1,6 +1,6 @@
 {
   "name": "@mete-work/egg-swagger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Egg swagger plugin",
   "eggPlugin": {
     "name": "swagger"
@@ -14,9 +14,6 @@
   "engines": {
     "node": ">=8.0.0"
   },
-  "files": [
-    "app.js"
-  ],
   "scripts": {
     "postpublish": "node scripts/published.js"
   },
@@ -26,6 +23,10 @@
     "joi-to-json-schema": "^5.1.0",
     "koa2-swagger-ui": "^2.15.4",
     "@mete-work/joi": "^1.0.0"
+  },
+  "devDependencies": {
+    "egg": "^2.20.2",
+    "egg-bin": "^4.9.0"
   },
   "repository": {
     "type": "git",
